@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masi Tree LLC | Licensed Arborist in York, Maine</title>
+  <meta name="description" content="Masi Tree LLC - Licensed and certified arborist serving York, Maine and the Southern Maine seacoast. Tree removal, pruning, stump grinding, and chipping services.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="logo.png" alt="Masi Tree LLC Logo" class="nav__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="nav__logo-text" style="display:none">MASI TREE</span>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#gallery" class="nav__link">Gallery</a></li>
+        <li><a href="#reviews" class="nav__link">Reviews</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Request an Estimate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <video class="hero__bg-video" autoplay muted loop playsinline>
+        <source src="Photos/1EB52FE8-28F3-4F68-B6F0-DE92A9E062C6.MP4" type="video/mp4">
+      </video>
+      <!-- Fallback image if video can't load -->
+      <img src="Photos/131942153_209797220723397_7212368008252943126_n.jpg" alt="Arborist climbing tree over water" class="hero__bg-img hero__bg-fallback">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <img src="logo.png" alt="Masi Tree LLC" class="hero__logo">
+      <h1 class="hero__title">Professional Tree Care<br>in York, Maine</h1>
+      <p class="hero__subtitle">Licensed &amp; certified arborist dedicated to safety, the environment, and your property.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Request a Free Estimate</a>
+        <a href="tel:2077527791" class="btn btn--outline">(207) 752-7791</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image-wrap">
+          <img src="Photos/476290467_1144269360609507_7035052156573023181_n.jpg" alt="Eric Masi climbing in tree canopy" class="about__image">
+        </div>
+        <div class="about__content">
+          <span class="section__label">About Us</span>
+          <h2 class="section__title">Meet Eric Masi</h2>
+          <p class="about__text">Eric Masi is a licensed and certified arborist specializing in hands-on tree work throughout York, Maine and the Southern Maine seacoast region.</p>
+          <p class="about__text">Eric and everyone at Masi Tree is conscientious towards safety, the environment and of course the homeowners we serve. Our goal is to help your property flourish, stay healthy, and remain safe.</p>
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </span>
+              <span class="about__stat-text">Licensed &amp; Certified</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="about__stat-text">York, Maine</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </span>
+              <span class="about__stat-text">Fully Insured</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services section section--dark" id="services">
+    <div class="container">
+      <span class="section__label section__label--light">What We Do</span>
+      <h2 class="section__title section__title--light">Our Services</h2>
+      <p class="section__subtitle">From hazardous tree removal to precision pruning, we handle every aspect of professional tree care.</p>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__image">
+            <img src="Photos/472298390_1122304799472630_8947423854408010734_n.jpg" alt="Fresh cut tree trunk cross-section" loading="lazy">
+          </div>
+          <h3 class="service-card__title">Tree Removal</h3>
+          <p class="service-card__text">From hazardous tree removal to brush clearing. No job too big or too small. Safe, efficient removal with full cleanup.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__image">
+            <img src="Photos/96668364_115320310171089_636300405629779968_n.jpg" alt="Arborist climbing near house for pruning" loading="lazy">
+          </div>
+          <h3 class="service-card__title">Pruning</h3>
+          <p class="service-card__text">Prune trees for health or house clearance. Prune for more sunlight on your property or remove dead wood and hazardous branches.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__image">
+            <img src="Photos/96514081_115333890169731_8051598112604553216_n.jpg" alt="Cut logs and chainsaw on job site" loading="lazy">
+          </div>
+          <h3 class="service-card__title">Stump Grinding</h3>
+          <p class="service-card__text">Optimize your yard space with stump removals. Our 4x4 grinding unit can access most locations for thorough stump removal.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__image">
+            <img src="Photos/96782128_115332713503182_4932285862282002432_n.jpg" alt="Clearing brush with chainsaw" loading="lazy">
+          </div>
+          <h3 class="service-card__title">Chipping</h3>
+          <p class="service-card__text">The Bandit 12XP chipper handles all brush and wood material up to 12". We can broadcast chips for your use or haul them away.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <span class="section__label">Our Work</span>
+      <h2 class="section__title">Recent Projects</h2>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--tall">
+          <img src="Photos/476267482_1149696026864092_1722135645373240089_n.jpg" alt="Climbing arborist working on tall tree trunk" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="Photos/472539311_1122305119472598_2104681260960943159_n.jpg" alt="Masi Tree crew working by the waterfront" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="Photos/476208313_1144269253942851_5777841683896876960_n.jpg" alt="Large tree near house ready for work" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--tall">
+          <img src="Photos/467014278_1089645122738598_794636271065762942_n.jpg" alt="Silhouette of arborist climbing against dramatic sky" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="Photos/307978128_622268606273506_4240189596380743092_n.jpg" alt="Tall pine trees being worked on" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="Photos/95715544_115312400171880_653477135192686592_n.jpg" alt="Arborist climbing tall tree with blue sky" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="features section section--dark">
+    <div class="container">
+      <span class="section__label section__label--light">Why Masi Tree</span>
+      <h2 class="section__title section__title--light">Why Choose Us</h2>
+      <div class="features__grid">
+        <div class="feature">
+          <div class="feature__number">01</div>
+          <h3 class="feature__title">Safety First</h3>
+          <p class="feature__text">Every job is approached with meticulous attention to safety protocols, protecting your property, our crew, and your family.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__number">02</div>
+          <h3 class="feature__title">Environmentally Conscious</h3>
+          <p class="feature__text">We care about the trees we work with and the environment we all share. Sustainable practices guide every decision.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__number">03</div>
+          <h3 class="feature__title">Local Expertise</h3>
+          <p class="feature__text">Deep knowledge of Southern Maine's tree species, soil conditions, and seasonal challenges informs our expert approach.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__number">04</div>
+          <h3 class="feature__title">Free Estimates</h3>
+          <p class="feature__text">We provide honest, transparent estimates at no cost. No pressure, no hidden fees — just straightforward professional advice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <span class="section__label">Testimonials</span>
+      <h2 class="section__title">What Our Clients Say</h2>
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="review-card__text">"If you need your trees pruned or taken down, I highly recommend Eric Masi. Professional, thorough, and left our yard looking better than ever."</p>
+          <div class="review-card__author">
+            <span class="review-card__name">Satisfied Customer</span>
+            <span class="review-card__source">Yelp Review</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="review-card__text">"Eric was incredibly knowledgeable and careful with the large oak removal near our house. The crew cleaned up everything perfectly. Highly recommend Masi Tree!"</p>
+          <div class="review-card__author">
+            <span class="review-card__name">York Homeowner</span>
+            <span class="review-card__source">Local Recommendation</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="review-card__text">"Outstanding service from start to finish. Eric's team handled the stump grinding and pruning with real expertise. Fair pricing and great communication throughout."</p>
+          <div class="review-card__author">
+            <span class="review-card__name">Southern Maine Resident</span>
+            <span class="review-card__source">Nextdoor</span>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__rating">
+        <div class="reviews__rating-badge">
+          <span class="reviews__rating-number">5.0</span>
+          <div class="reviews__rating-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <span class="reviews__rating-text">on Yelp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Estimate -->
+  <section class="contact section section--dark" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <span class="section__label section__label--light">Get In Touch</span>
+          <h2 class="section__title section__title--light">Request a Free Estimate</h2>
+          <p class="contact__text">Ready to get started? Reach out for a free, no-obligation estimate. We serve York and the surrounding Southern Maine seacoast communities.</p>
+          <div class="contact__details">
+            <a href="tel:2077527791" class="contact__detail">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              <span>(207) 752-7791</span>
+            </a>
+            <a href="mailto:masitree@gmail.com" class="contact__detail">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>masitree@gmail.com</span>
+            </a>
+            <div class="contact__detail">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>36 Mallard Dr, York, ME 03909</span>
+            </div>
+          </div>
+          <div class="contact__social">
+            <a href="https://www.facebook.com/MasiTreeLLC/" target="_blank" rel="noopener" class="contact__social-link" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="https://www.yelp.com/biz/masi-tree-service-york" target="_blank" rel="noopener" class="contact__social-link" aria-label="Yelp">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm-1-7.5c-.69 0-1.25-.56-1.25-1.25S9.31 7 10 7s1.25.56 1.25 1.25S10.69 9.5 10 9.5zm5 7.5h-2v-3.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5V17H8v-6h2v.8c.5-.7 1.3-1.2 2.2-1.3 1.6-.1 2.8 1.1 2.8 2.7V17z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact__form-wrap">
+          <form class="contact__form" id="contact-form">
+            <div class="form__group">
+              <label for="name" class="form__label">Name</label>
+              <input type="text" id="name" name="name" class="form__input" required>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" required>
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">Phone</label>
+              <input type="tel" id="phone" name="phone" class="form__input">
+            </div>
+            <div class="form__group">
+              <label for="service" class="form__label">Service Needed</label>
+              <select id="service" name="service" class="form__input form__select">
+                <option value="">Select a service</option>
+                <option value="tree-removal">Tree Removal</option>
+                <option value="pruning">Pruning</option>
+                <option value="stump-grinding">Stump Grinding</option>
+                <option value="chipping">Chipping</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Tell us about your project</label>
+              <textarea id="message" name="message" class="form__input form__textarea" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo.png" alt="Masi Tree LLC" class="footer__logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+          <span class="footer__logo-text" style="display:none">MASI TREE</span>
+          <p class="footer__tagline">Licensed &amp; Certified Arborist<br>York, Maine</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Services</h4>
+          <ul>
+            <li><a href="#services">Tree Removal</a></li>
+            <li><a href="#services">Pruning</a></li>
+            <li><a href="#services">Stump Grinding</a></li>
+            <li><a href="#services">Chipping</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Contact</h4>
+          <ul>
+            <li><a href="tel:2077527791">(207) 752-7791</a></li>
+            <li><a href="mailto:masitree@gmail.com">masitree@gmail.com</a></li>
+            <li><a href="https://www.facebook.com/MasiTreeLLC/" target="_blank" rel="noopener">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Masi Tree LLC. All rights reserved. York, Maine.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
